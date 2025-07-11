@@ -39,7 +39,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 70px 150px;
+    padding: 50px 140px;
 }
 .navbar a{
     text-decoration: none;
@@ -72,6 +72,7 @@ header{
         background-color: var(--primary-color);
         transition: all ease-in-out 0.6s;
         box-shadow: 0px 2px 5px 0px ;
+        cursor: pointer;
 }
 .navbar-sign-up-btn button:hover{
     transform: translateY(-7px);
@@ -103,6 +104,7 @@ header{
     background-color: var(--primary-color);
     margin: 50px 0px;
     transition: all ease-in-out .6s ;
+    cursor: pointer;
 }
 .banner button a{
     text-decoration: none;
@@ -115,7 +117,7 @@ header{
     color: var(--black2-color);
 }  
 
-/*---section-style--- */
+/*---action section-style--- */
 
 .action{
     position: relative;
@@ -125,10 +127,10 @@ header{
     flex-direction: column(2,1fr);
     column-gap: 223px;
     justify-content: space-between;
-    padding: 80px 90px;
+    padding: 80px 0px;
     align-items: center;
     margin: 80px auto;
-    background-color: #f0f0f0;
+    background-color: ;
     border-radius: 10px;
 } 
 .action-left{
@@ -164,6 +166,7 @@ header{
     color: var(--secondary-color);
     background-color: var(--primary-color);
     transition: all ease-in-out .6s;
+    cursor: pointer;
 }
 .action-btn:hover{
     transform: translateY(-7px);
@@ -179,7 +182,7 @@ header{
     border-radius: 10px;
     text-align: center;
     margin: 50px auto;
-    background-color: #4d47ff25 ;
+    background-color: #589eed25 ;
 }
 .productive-users-section h2{
     font-size: 38px;
@@ -212,9 +215,6 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: #26e63025 ;
-    
-
 }
 .users-feedback-section h2{
     font-size: 42px;
@@ -229,8 +229,10 @@ header{
 .user{
     width: 366px;
     height: 243px;
-    padding: 0px 30px;
+    padding:24px;
     margin-top: 30px;
+    background-color: #F2EDED;
+    border-radius: 14px;
     
 }
 .star-icon img{
@@ -239,10 +241,10 @@ header{
 }
 .user h3{
     font-size: 24px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .user p{
-    margin-top: 10px ;
+    margin-top: 15px ;
 }
 .reviewer-details{
     display: flex;
@@ -265,7 +267,7 @@ header{
     margin: 50px auto;
     border-radius: 10px;
     padding: 71px 150px;
-    background-color: #f3dada;
+    background-color: #ffffff;
 }
 .ready-to-focus h1{
     font-size:50px ;
@@ -286,6 +288,7 @@ header{
     background-color: var(--primary-color);
     color: var(--secondary-color);
     transition: all ease-in-out .6s;
+    cursor: pointer;
 }
 .ready-btn:hover{
     background-color: var(--hover-color);
@@ -307,7 +310,7 @@ header{
     justify-content: space-between;
     margin: 80px auto;
     align-items: center;
-    background-color: #e0f3da;
+    background-color: #ffffff;
     border-radius: 10px;
 
 }
@@ -359,6 +362,7 @@ form fieldset textarea{
     border-radius: 10px;
     margin: 15px 0px;
     transition: all ease-in-out .6s;
+    cursor: pointer;
 }
 .touch-btn:hover{
      background-color: var(--hover-color);
@@ -379,7 +383,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--hover-color);
+    background-color:#ffffff;
 }
 .footer-container{
     width: 531px;
@@ -389,10 +393,10 @@ footer{
 footer h1{
     font-size: 100px;
     font-weight: bold;
-    color: var(--black2-color);
+    color: var(--primary-color);
 }
 footer p{
-    color: #4d4949;
+    color: #8987A1;
 }
 footer ul{
     list-style-type: none;
@@ -400,9 +404,9 @@ footer ul{
     align-items: center;
     justify-content: space-around;
     margin: 20px 0px;
-    
-    font-weight: bold;
+    font-weight:550;
 }
+    
 footer ul li{
     transition: all ease-in-out .6s;
 }
@@ -412,9 +416,9 @@ footer ul li:hover{
 
 footer ul a{
     text-decoration: none;
-    color:#757575;
+    color:#8987A1;
     transition: all ease-in-out .5s;
 }
 footer ul li a:hover{
-    color: var(--secondary-color);
+    color: var(--hover-color);
 }
