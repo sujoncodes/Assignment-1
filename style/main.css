@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --praimary-color: #4E47FF;
+    --secondary-color: #fff;
+    --hover-color: #ffb109;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montaga", serif;
+}
+/* ---header-style---*/
+header{
+    position: absolute;
+    height: 730px;
+    width:1520px;
+    background: url(../Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+
+}
+/*----navbar style----*/
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 75px 99px;
+}
+.navbar a{
+    text-decoration: none;
+    
+}
+.logo{
+    font-size: 48px;
+}
+.logo a{
+    color: var(--praimary-color);
+    font-weight: 700;
+    transition: all ease-in-out 0.6s;
+} 
+.logo a:hover{
+    text-decoration: underline;
+    color: var(--hover-color);
+}   
+.navbar-sign-up-btn a{
+    height: 60px;
+    width: 132px;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    
+}
+.navbar-sign-up-btn button{
+        padding: 5px 10px;
+        border-radius: 10px;
+        border: none;
+        background-color: var(--praimary-color);
+        transition: all ease-in-out 0.6s;
+}
+.navbar-sign-up-btn button:hover{
+    transform: translateY(-7px);
+    background-color: var(--hover-color);
+}
+
+/*---banner-style--- */
+
+.banner{
+    text-align: center;
+    
+    margin: 250px auto;
+    height: 153px;
+    width: 905px;
+}
+.banner h1{
+    font-size: 65px;
+}
+.banner button{
+    font-size: 16px;
+    padding: 7px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--praimary-color);
+    margin: 50px 0px;
+    transition: all ease-in-out .6s ;
+}
+.banner button a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+.banner button:hover{
+    transform: translateY(-7px);
+    background-color: var(--hover-color);
+}  
+section .action{
+    position: relative;
+    z-index: 1000;
+    
+} 
