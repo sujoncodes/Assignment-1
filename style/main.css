@@ -161,8 +161,30 @@ header{
 /*---productive-users-section--- */
 
 .productive-users-section{
-    width: 1140px;
-    height: 308px;
+     width: 1140px;
+     height: 308px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px auto;
+    background-color: #4d47ff25 ;
+}
+.productive-users-section h2{
+    font-size: 38px;
+    padding: 40px 0px;
+}
+.productive-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 70px;
     
-
+    
+}
+.productive-container h1{
+    font-size: 80px;
+    font-family: "Montage", sans-serif;
+    color: var(--primary-color);
+}
+.productive-container p{
+    font-size: 20px;
+    color: var(--black2-color);
 }
