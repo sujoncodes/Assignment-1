@@ -283,3 +283,73 @@ header{
 .ready-to-focus img{
     border-radius: 48px;
 }
+
+/* ---Touch section style---*/
+
+.touch-section{
+    width: 1140px;
+    height: 632px;
+    padding: 71px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 80px auto;
+    align-items: center;
+    background-color: #e0f3da;
+    border-radius: 10px;
+
+}
+.left-touch h1{
+    width: 528px;
+    height: 232px;
+    font-size: 90px;
+    font-weight: bold;
+    
+}
+form{
+    width: 497px;
+    height: 490px;
+}
+form fieldset{
+    border: none;
+}
+form fieldset legend{
+    font-size: 18px;
+    font-weight: 550;
+}
+form fieldset input{
+    width: 497px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 30px 20px;
+    border: 1px solid #D6DDED;
+    margin: 10px 0px 15px 0px;
+}
+form fieldset textarea{
+    width: 497px;
+    height: 135px;
+    padding: 32px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    margin: 10px 0px;
+}
+.touch-btn{
+    width: 497px;
+    height: 62px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 19px 101px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 10px;
+    margin: 15px 0px;
+    transition: all ease-in-out .6s;
+}
+.touch-btn:hover{
+     background-color: var(--hover-color);
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px 0.3px rgba(0, 0, 0, 0.6);
+    color: var(--black2-color);
+}
