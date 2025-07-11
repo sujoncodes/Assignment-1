@@ -4,6 +4,7 @@
     --secondary-color: #fff;
     --hover-color: #ffb109;
     --black2-color: #252432;
+    --p-color: rgb(0, 0,0, 50%);
 }
 *{
     padding: 0;
@@ -241,4 +242,44 @@ header{
 }
 .reviewer-name{
     color: #757575;
+}
+
+/*---Ready to focus better */
+
+.ready-to-focus{
+    width: 1140px;
+    height: 697px;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 71px 150px;
+    background-color: #f3dada;
+}
+.ready-to-focus h1{
+    font-size:50px ;
+}
+.ready-to-focus p{
+    color: var(--p-color);
+    margin-top: 20px;
+}
+.ready-btn{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0px;
+    width: 195px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transition: all ease-in-out .6s;
+}
+.ready-btn:hover{
+    background-color: var(--hover-color);
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0, 0.3);
+    color: var(--black2-color);
+}
+.ready-to-focus img{
+    border-radius: 48px;
 }
